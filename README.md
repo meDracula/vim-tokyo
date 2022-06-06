@@ -6,5 +6,5 @@ Plugin manager pathogen.
 
 
 ## Screenshot
-![Vimrc screenshot](vimrc_1920x1080_scrot.png)
+![Vimrc screenshot](screenshots/vimrc_1920x1080_scrot.png)
 
