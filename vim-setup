@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Vim installation"
+cp $PWD/.vimrc ~/
+
+mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/colors && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+cd ~/.vim/bundle
+git clone https://github.com/tpope/vim-fugitive.git
+git clone https://github.com/preservim/nerdtree.git
+git clone https://github.com/vim-airline/vim-airline.git
+git clone https://github.com/vim-airline/vim-airline-themes.git
+
+# Colorscheme
+git clone https://github.com/ghifarit53/tokyonight-vim.git
+cp ~/.vim/bundle/tokyonight-vim/colors/tokyonight.vim ~/.vim/colors/.
