@@ -7,8 +7,9 @@ set encoding =utf-8
 filetype plugin indent on
 
 let mapleader = " "
-nnoremap <Leader>s :update<cr>
+nnoremap <Leader>s :update<CR>
 nnoremap <C-t> :tabnew<CR>
+nnoremap <Leader>t :term<CR>
 
 set number
 set relativenumber
